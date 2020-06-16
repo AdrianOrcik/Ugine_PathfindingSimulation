@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="layers">
+      <UniqueIdentifier>{3588EB0A-212A-16E1-0AE5-2935F6259D31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{6D076287-D9E6-E022-E2FE-6BF94E5D4784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\algos">
+      <UniqueIdentifier>{72E1D11B-DEA1-4D52-A7DC-96CF135C922E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\layers\pathfind_2d.h" />
+    <ClInclude Include="src\scripts\algos\pathfinding_algo.h" />
+    <ClInclude Include="src\scripts\simulation\simulation_step.h" />
+    <ClInclude Include="src\scripts\definition.h" />
+    <ClInclude Include="src\scripts\node_element.h" />
+    <ClInclude Include="src\scripts\pathfinding_manager.h" />
+    <ClInclude Include="src\scripts\algos\dijkstra.h" />
+    <ClInclude Include="src\scripts\algos\a_star.h" />
+    <ClInclude Include="src\scripts\algos\bfs.h" />
+    <ClInclude Include="src\scripts\algos\dfs.h" />
+    <ClInclude Include="src\scripts\simulation\node_step.h" />
+    <ClInclude Include="src\scripts\routines\fade_to_color_routine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\sandbox_app.cc" />
+    <ClCompile Include="src\layers\pathfind_2d.cc" />
+    <ClCompile Include="src\scripts\simulation\node_step.cc" />
+    <ClCompile Include="src\scripts\routines\fade_to_color_routine.cc" />
+  </ItemGroup>
+</Project>
