@@ -8,6 +8,12 @@ OpenSource C++ based project built on ugine lib. <br>
 Create a pathfinding simulation application built on own engine lib. <br>
 Application will provide several algorhitms for simulation.
 
+Support Algorhitms
+* Dijkstra 
+* A*
+* Breadth-first
+* Depth-first
+
 :package: Getting Started
 ---------
 Visual Studio 2017 or 2019 is recommended. <br>
